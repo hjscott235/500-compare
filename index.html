@@ -64,27 +64,27 @@ body { margin: 0; padding: 0; }
     <div id="after" class="map"></div>
 
 <div class="map-overlay1" id="features">
-    <h2>1000m buffer</h2>
+    <h2>source layer 2</h2>
 </div>
 <div class="map-overlay2" id="features">
-    <h2>500m buffer</h2>
+    <h2>source layers 2+3</h2>
 </div>
 
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiaGpzY290dDIzNSIsImEiOiJja20zdjVtejkwajR6MnZvMjV1aG03dW14In0.wxYmD-iFBTyoJjDBYZq8Rw';
     var beforeMap = new mapboxgl.Map({
         container: 'before',
-        style: 'mapbox://styles/hjscott235/ckp6zxvmt1eco17t9i6g44gbg',
-        center: [-0.54328,51.42603],
-        zoom: 13,
+        style: 'mapbox://styles/hjscott235/ckpmsjt9j0y2q17nyygl3ujve',
+        center: [-112.07894,33.4499],
+        zoom: 6,
         hash: true
     });
 
     var afterMap = new mapboxgl.Map({
         container: 'after',
-        style: 'mapbox://styles/hjscott235/ckp76gigq3j2d19q8xld5dtpt',
-        center: [-0.54328,51.42603],
-        zoom: 13,
+        style: 'mapbox://styles/hjscott235/ckpqv5cmp0k2817nucvkdxloc',
+        center: [-112.07894,33.4499],
+        zoom: 6,
         hash: true
     });
 
